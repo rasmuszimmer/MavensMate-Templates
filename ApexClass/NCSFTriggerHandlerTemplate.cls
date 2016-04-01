@@ -1,14 +1,13 @@
 public with sharing class {{ api_name }} implements ITriggerHandler{
-	public {{ api_name }}() {
-		
-	}
 	
 	// *************** Constants
 	
 	// *************** Class Members
 	
 	// *************** Constructors
-	public TargetProfileConfigurationTriggerHandler() {}
+	public {{ api_name }}() {
+		
+	}
 	
 	// *************** Unused
 	public void beforeDelete(SObject so) {}	
